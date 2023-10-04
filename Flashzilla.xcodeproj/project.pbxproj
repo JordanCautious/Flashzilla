@@ -13,6 +13,7 @@
 		EC1864592ACD02C50081373A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1864582ACD02C50081373A /* Preview Assets.xcassets */; };
 		EC2459D82ACD278A00BF8797 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2459D72ACD278A00BF8797 /* Card.swift */; };
 		EC76FAEC2ACD2A3800E86B5D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76FAEB2ACD2A3800E86B5D /* CardView.swift */; };
+		EC76FAEE2ACE013700E86B5D /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76FAED2ACE013700E86B5D /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EC1864582ACD02C50081373A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC2459D72ACD278A00BF8797 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EC76FAEB2ACD2A3800E86B5D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EC76FAED2ACE013700E86B5D /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				EC1864512ACD02C20081373A /* FlashzillaApp.swift */,
 				EC1864532ACD02C20081373A /* ContentView.swift */,
 				EC2459D72ACD278A00BF8797 /* Card.swift */,
+				EC76FAED2ACE013700E86B5D /* EditCards.swift */,
 				EC76FAEB2ACD2A3800E86B5D /* CardView.swift */,
 				EC1864552ACD02C50081373A /* Assets.xcassets */,
 				EC1864572ACD02C50081373A /* Preview Content */,
@@ -146,6 +149,7 @@
 				EC1864542ACD02C20081373A /* ContentView.swift in Sources */,
 				EC2459D82ACD278A00BF8797 /* Card.swift in Sources */,
 				EC76FAEC2ACD2A3800E86B5D /* CardView.swift in Sources */,
+				EC76FAEE2ACE013700E86B5D /* EditCards.swift in Sources */,
 				EC1864522ACD02C20081373A /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.miami.jrh279.BarcodeScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.miami.jrh279.Flashzilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.miami.jrh279.BarcodeScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.miami.jrh279.Flashzilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
